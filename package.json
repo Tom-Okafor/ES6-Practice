@@ -1,0 +1,18 @@
+{
+  "name": "es6-practice",
+  "version": "1.0.0",
+  "description": "In this repository, I solve exercises from Stephen Grider's ES6 course.",
+  "main": "exercise1.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0"
+  }
+}
