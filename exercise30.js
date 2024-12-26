@@ -19,8 +19,7 @@ function isEngineer(profile) {
     department: "Engineering",
   };
 
-  function isEngineer(profile) {
-    const { title, department } = profile;
+  function isEngineer({ title, department }) {
     return title === "Engineer" && department === "Engineering";
   }
   console.log(isEngineer(profile));
