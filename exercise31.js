@@ -27,8 +27,7 @@ const classesAsObject;
     ["Math", "11:30AM", "Mrs. Vitalis"],
   ];
 
-  const classesAsObject = classes.map((eachClass) => {
-    const [subject, time, teacher] = eachClass;
+  const classesAsObject = classes.map(([subject, time, teacher]) => {
     return { subject, time, teacher };
   });
   console.log(classesAsObject)
